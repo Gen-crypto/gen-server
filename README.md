@@ -1,7 +1,4 @@
-# Actix-web REST API with JWT
-
-![CI](https://github.com/SakaDream/actix-web-rest-api-with-jwt/workflows/CI/badge.svg)
-![Docker CICD](https://github.com/SakaDream/actix-web-rest-api-with-jwt/workflows/Docker%20CICD/badge.svg)
+# Generation server
 
 A simple CRUD backend app using Actix-web, Diesel and JWT
 
@@ -21,8 +18,8 @@ Or using [Docker](https://www.docker.com/)
 - Rename `.env.sample` to `.env` and update the database connection string in `DATABASE_URL` key.
 - Build with release profile: `cargo build --release`
 - Run release binary in command line/terminal.
-  - Windows: `target/release/actix-web-rest-api-with-jwt.exe`
-  - Linux/UNIX: `target/release/actix-web-rest-api-with-jwt`
+  - Windows: `target/release/gen-server.exe`
+  - Linux/UNIX: `target/release/gen-server`
 - Enjoy! 😄
 
 ### Docker
